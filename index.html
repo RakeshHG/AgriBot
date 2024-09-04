@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomato Leaf Disease Detector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="AgriBot Logo" class="logo">
+            <p>Tomato Leaf Disease Detector</p>
+        </header>
+        
+        <!-- Flexbox wrapper for both chatbots -->
+        <div class="chatbots-wrapper">
+            <!-- Existing Chatbot -->
+            <div class="chatbot">
+                <div class="chat-window" id="chat-window">
+                    <div id="loading" class="loading hidden">Analyzing...</div>
+                </div>
+                <div class="input-area">
+                    <input type="file" id="imageInput" accept="image/*">
+                    <button id="sendButton">Send Image</button>
+                </div>
+            </div>
+
+            <!-- New Chatbot iFrame -->
+            <div class="chatbot">
+                <iframe
+                    src="https://www.chatbase.co/chatbot-iframe/Bn7ZoN-iEDcefgObX3-jm"
+                    width="100%"
+                    style="height: 100%; min-height: 700px"
+                    frameborder="0">
+                </iframe>
+            </div>
+        </div>
+
+        <!-- Image preview and result section -->
+        <div class="result-section" id="result-section">
+            <canvas id="resultCanvas" class="result-canvas"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
