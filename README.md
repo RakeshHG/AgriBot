@@ -1,2 +1,19 @@
 # AgriBot
-A Computer Vision based Chatbot model for Analysing tomato plant leaf images and detecting and classifying diseases, and suggest causes and suitable remedies for diseases identified.
+
+AgriBot is a computer vision-based chatbot model for analyzing tomato plant leaf images, detecting and classifying diseases, and suggesting suitable remedies for identified diseases.
+
+[Check out the AgriBot website here!](https://rakeshhg.github.io/AgriBot/)
+
+## Sample Images
+
+Below are some sample images analyzed by AgriBot:
+
+### Healthy Leaf
+![Healthy Leaf](images/healthy_leaf.jpg)
+
+### Diseased Leaf
+![Diseased Leaf](images/diseased_leaf.jpg)
+
+## Features
+- Disease Detection
+- Remedy Suggestions
