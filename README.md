@@ -17,4 +17,5 @@ Below are some sample images analyzed by AgriBot:
 ## Features
 - Disease Detection
 - Remedy Suggestions
-- Chatbot to further 
+- Chatbot to further ask for more
+  information and local language support
