@@ -24,9 +24,9 @@ document.getElementById("sendButton").addEventListener("click", function() {
     function sendImageToRoboflow(base64Image, originalImageSrc) {
         axios({
             method: "POST",
-            url: "https://detect.roboflow.com/tomato-leaves-f4rat/2",
+            url: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             params: {
-                api_key: "OZUmLjNBWc7ZkAUWnClo"
+                api_key: "********************"
             },
             data: base64Image,
             headers: {
